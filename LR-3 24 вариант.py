@@ -16,7 +16,6 @@ D E
 1   3
   4 
 '''
-import matplotlib.pyplot as plt
 import numpy as np
 import random
 from copy import deepcopy
@@ -162,7 +161,7 @@ if __name__ == '__main__'    :
         F = not_mirror_sub(A, B, C)
         #for sub1_indx, sub2_indx in zip(sub_indx(B, N),sub_indx(C, N)):
         #    A[sub1_indx], A[sub2_indx] = A[sub2_indx], A[sub1_indx]
-        plt.show()
+
     print('\nМатрица F:', F, sep='\n')
     print('\nРезультат A*F: ', A*F, sep='\n')
     print('\nРезультат K*(A*F): ', K*(A*F), sep='\n')
